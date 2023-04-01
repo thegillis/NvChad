@@ -175,6 +175,7 @@ local default_plugins = {
 
       -- cmp sources plugins
       {
+        "zbirenbaum/copilot-cmp",
         "saadparwaiz1/cmp_luasnip",
         "hrsh7th/cmp-nvim-lua",
         "hrsh7th/cmp-nvim-lsp",

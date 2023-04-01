@@ -19,3 +19,13 @@ end
 dofile(vim.g.base46_cache .. "defaults")
 vim.opt.rtp:prepend(lazypath)
 require "plugins"
+
+
+-- TODO: Fix
+-- vim.api.nvim_create_autocmd("UIAttach", {
+--   callback = function(opts)
+--     require('ginit')
+--   end,
+-- })
+vim.cmd("au UIEnter * ++once lua require('ginit')")
+
